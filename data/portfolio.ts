@@ -113,7 +113,7 @@ export const projects: Project[] = [
       'Separated inventory, student, and transaction workflows into predictable screens.',
     ],
     role: ['Database design', 'PHP CRUD implementation', 'Responsive UI', 'Testing key workflows'],
-    demoUrl: 'https://library-management.vercel.app',
+    demoUrl: 'https://library-system-management.vercel.app',
     repoUrl:
       'https://github.com/sevi07202007/Library-System-Management/tree/main/Library%20System%20Management',
     screenshot: '/screenshots/library-management.svg',
