@@ -1,0 +1,18 @@
+<svg width="1280" height="820" viewBox="0 0 1280 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="820" fill="#020617"/>
+  <rect x="72" y="64" width="1136" height="692" rx="30" fill="#0f172a" stroke="#22d3ee" stroke-opacity=".28"/>
+  <rect x="118" y="116" width="420" height="38" rx="19" fill="#164e63"/>
+  <text x="118" y="244" fill="#f8fafc" font-family="Inter, Arial" font-size="68" font-weight="800">Mark Joseph</text>
+  <text x="118" y="318" fill="#f8fafc" font-family="Inter, Arial" font-size="68" font-weight="800">C. Teodoro</text>
+  <text x="118" y="372" fill="#a5f3fc" font-family="Inter, Arial" font-size="28" font-weight="600">Frontend Developer | React Developer | Full-Stack Developer</text>
+  <rect x="118" y="438" width="190" height="52" rx="10" fill="#f8fafc"/>
+  <rect x="328" y="438" width="150" height="52" rx="10" fill="#0f172a" stroke="#ffffff" stroke-opacity=".16"/>
+  <rect x="710" y="150" width="386" height="430" rx="20" fill="#020617" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect x="752" y="204" width="302" height="24" rx="12" fill="#22d3ee" fill-opacity=".28"/>
+  <rect x="752" y="276" width="270" height="18" rx="9" fill="#334155"/>
+  <rect x="752" y="334" width="316" height="18" rx="9" fill="#334155"/>
+  <rect x="752" y="392" width="245" height="18" rx="9" fill="#334155"/>
+  <rect x="752" y="470" width="132" height="44" rx="10" fill="#22d3ee"/>
+  <rect x="912" y="470" width="132" height="44" rx="10" fill="#10b981"/>
+  <text x="118" y="138" fill="#67e8f9" font-family="Inter, Arial" font-size="20" font-weight="700">RECRUITER-READY PORTFOLIO</text>
+</svg>

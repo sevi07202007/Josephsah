@@ -1,0 +1,6 @@
+.next
+dist
+my-portfolio
+node_modules
+package-lock.json
+src
