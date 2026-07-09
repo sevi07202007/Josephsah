@@ -1,160 +1,161 @@
-# Mark Joseph C. Teodoro Portfolio
+# 👋 Mark Joseph C. Teodoro
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel)](https://yourname.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-sevi07202007-181717?style=for-the-badge&logo=github)](https://github.com/sevi07202007)
-[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org)
 
-A recruiter-ready portfolio built with Next.js 15, TypeScript, Tailwind CSS v4, shadcn-style components, Framer Motion, and Lucide React.
+### Frontend Developer • React Developer • Full-Stack Developer
 
-The goal of this portfolio is to communicate within the first 5-10 seconds that I am ready for frontend, React, or full-stack developer opportunities. It highlights real-world projects, technical decisions, project challenges, solutions, and clear links to live demos and repositories.
+Building responsive, modern, and user-focused web applications using **Next.js**, **React**, **TypeScript**, **PHP**, and **MySQL**.
 
-## Features
+<a href="https://josephsah.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Live_Portfolio-000000?style=for-the-badge&logo=vercel">
+</a>
 
-- Strong first-screen personal brand and role positioning
-- Recruiter-friendly project case studies
-- Live Demo and GitHub Repository buttons for each featured project
-- Responsive screenshots and visual project previews
-- Typed content source for projects, skills, contact details, and process
-- Reusable shadcn-style UI components
-- Framer Motion animations
-- Lucide React icon system
-- Strict TypeScript configuration
-- SEO metadata with Open Graph and Twitter card support
-- Error boundary
-- Tailwind CSS v4 global design tokens
-- ESLint and Prettier configuration
-- Vercel-ready project structure
+<a href="https://github.com/sevi07202007">
+<img src="https://img.shields.io/badge/GitHub-sevi07202007-181717?style=for-the-badge&logo=github">
+</a>
 
-## Tech Stack
+---
 
-- Framework: Next.js 15 App Router
-- Language: TypeScript with strict mode
-- Styling: Tailwind CSS v4
-- UI: shadcn/UI-style local components
-- Animation: Framer Motion
-- Icons: Lucide React
-- Deployment: Vercel
-- Version Control: Git and GitHub
-- Code Quality: ESLint and Prettier
+# 📖 About
 
-## Screenshots
+Welcome to my personal developer portfolio.
 
-### Portfolio
+I'm an aspiring **Frontend** and **Full-Stack Developer** passionate about building modern, responsive, and user-friendly web applications.
 
-![Portfolio screenshot](public/screenshots/portfolio.svg)
+This portfolio showcases my technical skills, real-world projects, and development experience while demonstrating my commitment to writing clean, scalable, and maintainable code.
 
-### Food Ordering Project
+My goal is to continuously improve as a developer and contribute to meaningful software solutions.
 
-![Food ordering screenshot](public/screenshots/food-ordering.svg)
+---
 
-## Featured Projects
+# 🚀 Tech Stack
 
-### Library Management System
+### Frontend
 
-A responsive PHP and MySQL platform for managing books, student records, borrowing activity, and admin workflows.
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- Lucide React
 
-- Live Demo: https://library-management.vercel.app
-- GitHub Repository: https://github.com/sevi07202007/library-management-system
-- Stack: PHP, MySQL, JavaScript, HTML, CSS, XAMPP
-- Role: Database design, PHP CRUD implementation, responsive UI, workflow testing
+### Backend
 
-### Food Ordering Web Application
+- PHP
+- MySQL
+- REST API
 
-A customer-focused food ordering experience with authentication, cart management, checkout, wishlist, and order tracking.
+### Tools
 
-- Live Demo: https://food-ordering.vercel.app
-- GitHub Repository: https://github.com/sevi07202007/food-ordering-system
-- Stack: PHP, MySQL, Bootstrap, JavaScript, HTML, CSS
-- Role: Frontend implementation, backend workflow logic, database integration, UX refinement
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 20 or newer
-- npm
 - Git
+- GitHub
+- VS Code
+- Vercel
+- XAMPP
+- Figma
 
-### Installation
+---
 
-```bash
-git clone https://github.com/sevi07202007/mark-joseph-portfolio.git
-cd mark-joseph-portfolio
-npm install
-```
+# ✨ Features
 
-### Environment Variables
+- Modern & Responsive UI
+- Mobile-First Design
+- Smooth Animations
+- SEO Optimized
+- Fast Performance
+- Reusable Components
+- Type-Safe Development
+- Recruiter-Friendly Project Showcase
+- Clean Folder Structure
+- Scalable Architecture
 
-Create a `.env.local` file using `.env.example` as a reference.
+---
 
-```bash
-NEXT_PUBLIC_SITE_URL=https://yourname.vercel.app
-NEXT_PUBLIC_GITHUB_URL=https://github.com/sevi07202007
-NEXT_PUBLIC_CONTACT_EMAIL=teodorojoseph60@gmail.com
-```
+# 💼 Featured Projects
 
-### Development
+## 📚 Library Management System
 
-```bash
-npm run dev
-```
+A full-stack web application built to simplify library operations, including book inventory, borrowing management, and student records.
 
-Open `http://localhost:3000`.
+### Highlights
 
-### Production Build
+- Authentication
+- Book Management
+- Borrow & Return
+- Student Records
+- Search & Filtering
+- Responsive Dashboard
 
-```bash
-npm run build
-npm run start
-```
+**Stack**
 
-### Code Quality
+PHP • MySQL • JavaScript • HTML • CSS
 
-```bash
-npm run lint
-npm run typecheck
-npm run format:check
-```
+---
 
-## Deployment
+## 🍔 Food Ordering System
 
-Deploy the portfolio to Vercel:
+A modern food ordering platform providing a seamless customer experience from browsing menus to order tracking.
 
-```bash
-npm install -g vercel
-vercel
-vercel --prod
-```
+### Highlights
 
-Recommended production URL:
+- Authentication
+- Shopping Cart
+- Wishlist
+- Checkout
+- Order Tracking
+
+**Stack**
+
+PHP • MySQL • Bootstrap • JavaScript
+
+---
+
+# 📁 Folder Structure
 
 ```text
-https://yourname.vercel.app
+app/
+components/
+data/
+hooks/
+lib/
+public/
 ```
 
-Each featured project should also be deployed separately to Vercel and linked from the portfolio:
+---
 
-```text
-https://library-management.vercel.app
-https://food-ordering.vercel.app
-```
+# 🎯 Current Goals
 
-## Repository Standards
+- Build more production-ready applications
+- Strengthen my React & Next.js expertise
+- Learn Node.js & Express
+- Explore Cloud Technologies
+- Contribute to Open Source
 
-- Use meaningful commits, for example `feat: build recruiter portfolio homepage`
-- Keep project data in `data/portfolio.ts`
-- Keep reusable UI in `components/ui`
-- Commit a fresh `package-lock.json` after running `npm install`
-- Add real screenshots when project deployments are live
-- Keep README links updated after Vercel deployment
+---
 
-## Contact
+# 🌐 Live Portfolio
 
-- Email: teodorojoseph60@gmail.com
-- Phone: 0950-059-0093
-- Location: Rizal, Philippines
-- GitHub: https://github.com/sevi07202007
+### 🔗 https://josephsah.vercel.app
 
-## License
+---
 
-This project is licensed under the MIT License.
+# 📬 Contact
+
+📧 Email
+
+> teodorojoseph60@gmail.com
+
+💻 GitHub
+
+> https://github.com/sevi07202007
+
+🌐 Portfolio
+
+> https://josephsah.vercel.app
+
+📍 Location
+
+> Rizal, Philippines
+
+### ⭐ Thank you for visiting my portfolio!
+
+Feel free to explore my projects, connect with me, or reach out for collaboration opportunities.
