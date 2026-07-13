@@ -74,17 +74,17 @@ export const skills = [
   {
     title: 'Backend Foundations',
     icon: Server,
-    items: ['PHP', 'REST APIs', 'Authentication', 'Server-side logic', 'Validation'],
+    items: ['PHP', 'REST APIs', 'Authentication', 'Server-side logic', 'Validation', 'PostgreSQL'],
   },
   {
     title: 'Database & Data',
     icon: Database,
-    items: ['MySQL', 'SQL', 'Data modeling', 'CRUD workflows', 'Relational schemas'],
+    items: ['MySQL', 'SQL', 'Data modeling', 'CRUD workflows', 'Relational schemas', 'PostgreSQL'],
   },
   {
     title: 'Engineering Tools',
     icon: Code2,
-    items: ['Git', 'GitHub', 'Vercel', 'VS Code', 'XAMPP', 'ESLint', 'Prettier'],
+    items: ['Git', 'GitHub', 'Vercel', 'VS Code', 'XAMPP', 'Prettier'],
   },
 ] as const
 
