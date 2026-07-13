@@ -127,7 +127,7 @@ export const projects: Project[] = [
       'A customer-focused food ordering experience with authentication, cart management, checkout, wishlist, and order tracking.',
     overview:
       'Built to simulate a real online ordering workflow from browsing products to tracking order status.',
-    stack: ['PHP', 'MySQL', 'Bootstrap', 'JavaScript', 'HTML', 'CSS'],
+    stack: ['Next.js', 'JavaScript/TypeScript', 'Tailwind CSS', 'CSS3', 'Framer Motion', 'React', 'Git', 'Vercel', 'HTML5', 'PostgreSQL'],
     features: ['Authentication', 'Shopping cart', 'Checkout flow', 'Wishlist', 'Order tracking'],
     challenges: [
       'Maintaining a smooth cart and checkout flow across multiple pages.',
