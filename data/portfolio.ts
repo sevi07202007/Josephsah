@@ -18,6 +18,7 @@ export type Project = {
   summary: string
   overview: string
   stack: string[]
+  note?: string[];
   features: string[]
   challenges: string[]
   solutions: string[]
@@ -113,7 +114,10 @@ export const projects: Project[] = [
       'Separated inventory, student, and transaction workflows into predictable screens.',
     ],
     role: ['Database design', 'PHP CRUD implementation', 'Responsive UI', 'Testing key workflows'],
-    demoUrl: 'https://library-system-management.vercel.app',
+
+    note: ['This project was built as a school requirement and is not publicly hosted.'],
+
+    demoUrl: 'https://library-system-management.vercel',
     repoUrl:
       'https://github.com/sevi07202007/Library-System-Management/tree/main/Library%20System%20Management',
     screenshot: '/screenshots/library-management.svg',
