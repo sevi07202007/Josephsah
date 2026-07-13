@@ -143,6 +143,7 @@ public/
 ### 🔗 https://josephsah.vercel.app
 
 ---
+<<<<<<< HEAD
 
 # 📬 Contact
 
@@ -168,3 +169,27 @@ public/
 
 Feel free to explore my projects, connect with me, or reach out for collaboration opportunities.
 
+=======
+
+# 📬 Contact
+
+📧 Email
+
+> teodorojoseph60@gmail.com
+
+💻 GitHub
+
+> https://github.com/sevi07202007
+
+🌐 Portfolio
+
+> https://josephsah.vercel.app
+
+📍 Location
+
+> Rizal, Philippines
+
+### ⭐ Thank you for visiting my portfolio!
+
+Feel free to explore my projects, connect with me, or reach out for collaboration opportunities.
+>>>>>>> 3b3e3a3a61e7585dedf3b5e43e891bed09f5c5a6
