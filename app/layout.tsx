@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: `%s | ${profile.name}`,
   },
   description:
-    'Recruiter-ready portfolio showcasing frontend, React, and full-stack projects by Mark Joseph C. Teodoro.',
+    'My portfolio showcasing frontend, React, and full-stack projects by Mark Joseph C. Teodoro.',
   keywords: [
     'Frontend Developer',
     'React Developer',

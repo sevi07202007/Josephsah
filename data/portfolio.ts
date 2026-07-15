@@ -41,7 +41,7 @@ export const profile = {
   headline:
     'I build fast, responsive, and recruiter-friendly web experiences with React, TypeScript, PHP, and MySQL.',
   pitch:
-    'A detail-oriented BSIT student and developer focused on production-quality interfaces, clean component architecture, accessible UI, and practical full-stack workflows.',
+    'Im a BSIT student from ICCT Colleges who enjoys building practical web applications. My recent projects include a Library Management System and a Food Ordering System where I worked with React, Next.js, PHP, MySQL, and TypeScript. Im currently looking for my first Junior Frontend or Full-Stack Developer opportunity.'
 }
 
 export const navItems = [
@@ -52,8 +52,8 @@ export const navItems = [
 ] as const
 
 export const highlights = [
-  { label: 'Featured Projects', value: '2+' },
-  { label: 'Core Technologies', value: '12+' },
+  { label: 'Full-stack Projects', value: '2+' },
+  { label: 'React • Next.js • TypeScript'},
   { label: 'Primary Focus', value: 'React + Full Stack' },
   { label: 'Availability', value: 'Internships / Junior Roles' },
 ] as const
@@ -67,7 +67,7 @@ export const contactLinks = [
 
 export const skills = [
   {
-    title: 'Frontend Engineering',
+    title: 'Frontend',
     icon: LayoutDashboard,
     items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Responsive UI', 'Accessibility'],
   },
@@ -82,7 +82,7 @@ export const skills = [
     items: ['MySQL', 'SQL', 'Data modeling', 'CRUD workflows', 'Relational schemas', 'PostgreSQL'],
   },
   {
-    title: 'Engineering Tools',
+    title: 'Tools',
     icon: Code2,
     items: ['Git', 'GitHub', 'Vercel', 'VS Code', 'XAMPP', 'Prettier'],
   },
@@ -156,20 +156,7 @@ export const projects: Project[] = [
 
 export const processSteps = [
   {
-    title: 'Understand the workflow',
     description:
-      'I clarify the user, the core task, and the fastest path to a useful first version.',
-    icon: Globe2,
-  },
-  {
-    title: 'Build reusable pieces',
-    description: 'I keep UI sections typed, componentized, responsive, and easy to update later.',
-    icon: Sparkles,
-  },
-  {
-    title: 'Ship and improve',
-    description:
-      'I test important flows, document setup, and prepare the project for GitHub and Vercel.',
-    icon: Github,
+      'I enjoy building responsive web applications using React, TypeScript, and PHP. My focus is writing clean code that is easy to maintain and deploy.',
   },
 ] as const
