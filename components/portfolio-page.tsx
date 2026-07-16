@@ -274,16 +274,11 @@ export function PortfolioPage() {
         <section id="process" className="section-shell py-16">
           <Badge>How I work</Badge>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {processSteps.map((step) => {
-              const Icon = step.icon
-              return (
-                <Card key={step.title} className="p-6">
-                  <Icon className="text-emerald-300" size={26} />
-                  <h3 className="mt-4 text-xl font-semibold text-white">{step.title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-slate-400">{step.description}</p>
-                </Card>
-              )
-            })}
+          {processSteps.map((step, index) => (
+            <Card key={index} className="p-6">
+            <p>{step.description}</p>
+            </Card>
+          ))}
           </div>
         </section>
 
