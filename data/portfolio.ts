@@ -53,7 +53,7 @@ export const navItems = [
 
 export const highlights = [
   { label: 'Full-stack Projects', value: '2+' },
-  {label: "Tech Stack", value: "React • Next.js • TypeScript"}
+  {label: "Tech Stack", value: "React • Next.js • TypeScript"},
   { label: 'Primary Focus', value: 'React + Full Stack' },
   { label: 'Availability', value: 'Internships / Junior Roles' },
 ] as const
