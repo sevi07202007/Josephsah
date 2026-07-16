@@ -7,7 +7,6 @@ import {
   ArrowUpRight,
   BriefcaseBusiness,
   CheckCircle2,
-  Github,
   Mail,
   Menu,
   Moon,
@@ -15,6 +14,8 @@ import {
   Sun,
   X,
 } from 'lucide-react'
+
+import { FaGithub } from 'react-icons/fa'
 import { useMemo, useState } from 'react'
 
 import {
@@ -127,7 +128,7 @@ export function PortfolioPage() {
                 <ArrowUpRight size={17} />
               </LinkButton>
               <LinkButton href={profile.github} variant="secondary" target="_blank">
-                <Github size={17} />
+                <FaGithub size={17} />
                 GitHub
               </LinkButton>
               <LinkButton href="#contact" variant="secondary">
@@ -235,7 +236,7 @@ export function PortfolioPage() {
                         Live Demo
                       </LinkButton>
                       <LinkButton href={project.repoUrl} variant="secondary" target="_blank">
-                        <Github size={17} />
+                        <FaGithub size={17} />
                         GitHub Repository
                       </LinkButton>
                     </div>

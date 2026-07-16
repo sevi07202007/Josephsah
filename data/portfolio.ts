@@ -1,16 +1,14 @@
 import {
   Code2,
   Database,
-  Github,
-  Globe2,
   LayoutDashboard,
   Mail,
   MapPin,
   Phone,
   Server,
   LaptopMinimal,
-  Icon,
 } from 'lucide-react'
+import { FaGithub } from 'react-icons/fa'
 
 export type Project = {
   slug: string
@@ -63,7 +61,7 @@ export const contactLinks = [
   { label: profile.email, href: `mailto:${profile.email}`, icon: Mail },
   { label: profile.phone, href: 'tel:+639500590093', icon: Phone },
   { label: profile.location, href: '#contact', icon: MapPin },
-  { label: 'github.com/sevi07202007', href: profile.github, icon: Github },
+  { label: 'github.com/sevi07202007', href: profile.github, icon: FaGithub },
 ] as const
 
 export const skills = [
