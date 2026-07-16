@@ -297,7 +297,7 @@ export function PortfolioPage() {
                 Let&apos;s connect and discuss how I can contribute to your team.
               </h2>
               <p className="mt-4 leading-7 text-slate-400">
-                I&apos;m currently seeking internship and junior developer opportunities in frontend or full-stack development. If you think I'd be a good fit for your team, I'd be happy to connect and discuss how I can contribute.
+                I&apos;m currently seeking internship and junior developer opportunities in frontend or full-stack development. If you think I&apos;d be a good fit for your team, I&apos;d be happy to connect and discuss how I can contribute.
               </p>
             </div>
             <div className="grid gap-3">
