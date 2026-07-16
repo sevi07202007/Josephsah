@@ -8,7 +8,8 @@ import {
   MapPin,
   Phone,
   Server,
-  Sparkles,
+  LaptopMinimal,
+  Icon,
 } from 'lucide-react'
 
 export type Project = {
@@ -52,8 +53,8 @@ export const navItems = [
 ] as const
 
 export const highlights = [
-  { label: 'Full-stack Projects', value: '2+' },
-  { label: 'Tech Stack', value: 'React,  Next.js, TypeScript' },
+  { label: 'Completed Projects', value: '2+' },
+  { label: 'Tech Stack', value: 'React • Next.js • TypeScript' },
   { label: 'Primary Focus', value: 'React + Full Stack' },
   { label: 'Availability', value: 'Internships / Junior Roles' },
 ] as const
@@ -156,6 +157,7 @@ export const projects: Project[] = [
 
 export const processSteps = [
   {
+    icon: LaptopMinimal,
     description:
       'I enjoy building responsive web applications using React, TypeScript, and PHP. My focus is writing clean code that is easy to maintain and deploy.',
   },

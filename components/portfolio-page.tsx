@@ -158,17 +158,16 @@ export function PortfolioPage() {
             <div className="rounded-md border border-white/10 bg-slate-950 p-4">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <div>
-                  <p className="text-sm text-slate-400">Recruiter scan</p>
-                  <p className="font-semibold text-white">Ready in under one minute</p>
+                  <p className="text-sm text-slate-400">Quick Overview</p>
                 </div>
                 <BriefcaseBusiness className="text-cyan-300" size={24} />
               </div>
               <div className="mt-5 grid gap-4">
                 {[
-                  'Modern Next.js portfolio architecture',
-                  'Typed project case studies with measurable context',
-                  'Live demo and repository paths for every project',
-                  'Clean documentation and deployment checklist',
+                  'React & Next.js',
+                  'PHP & MySQL',
+                  'Responsive Design',
+                  'Git & GitHub',
                 ].map((item) => (
                   <div key={item} className="flex gap-3">
                     <CheckCircle2 className="mt-0.5 shrink-0 text-emerald-300" size={18} />
@@ -185,11 +184,10 @@ export function PortfolioPage() {
             <div>
               <Badge>Featured work</Badge>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                Projects recruiters can understand quickly.
+                Projects I've Built.
               </h2>
               <p className="mt-3 max-w-2xl leading-7 text-slate-400">
-                Each project shows the stack, my contribution, practical challenges, and links to
-                demo and source code.
+                Each project highlights the technologies I used, the features I developed, the challenges I solved, and includes links to the live demo and source code.
               </p>
             </div>
           </div>
@@ -251,7 +249,7 @@ export function PortfolioPage() {
         <section id="skills" className="section-shell py-16">
           <Badge>Technical foundation</Badge>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-            Built around maintainable frontend engineering.
+            Building responsive and user-friendly web applications.
           </h2>
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {skills.map((group) => {
@@ -272,13 +270,21 @@ export function PortfolioPage() {
         </section>
 
         <section id="process" className="section-shell py-16">
-          <Badge>How I work</Badge>
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-          {processSteps.map((step, index) => (
-            <Card key={index} className="p-6">
-            <p>{step.description}</p>
-            </Card>
-          ))}
+          <div className="flex flex-col items-center">
+            <Badge>How I work</Badge>
+
+            <div className="mt-8 w-full flex justify-center">
+              {processSteps.map((step, index) => {
+                const Icon = step.icon
+
+                return (
+                  <Card key={index} className="max-w-xl p-6 text-center">
+                    <Icon className="mx-auto mb-4 text-emerald-300" size={28} />
+                    <p>{step.description}</p>
+                  </Card>
+                )
+              })}
+            </div>
           </div>
         </section>
 
@@ -287,11 +293,10 @@ export function PortfolioPage() {
             <div>
               <Badge>Contact</Badge>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
-                Let&apos;s talk about the role, the team, or the next project.
+                Let's connect and discuss how I can contribute to your team.
               </h2>
               <p className="mt-4 leading-7 text-slate-400">
-                I am open to internships, junior frontend roles, React developer roles, and
-                full-stack opportunities where I can keep improving through real product work.
+                I'm currently seeking internship and junior developer opportunities in frontend or full-stack development. If you think I'd be a good fit for your team, I'd be happy to connect and discuss how I can contribute.
               </p>
             </div>
             <div className="grid gap-3">
@@ -315,8 +320,9 @@ export function PortfolioPage() {
 
       <footer className="border-t border-white/10 py-8">
         <div className="section-shell flex flex-col justify-between gap-4 text-sm text-slate-400 md:flex-row">
-          <p>Designed and developed by {profile.name}.</p>
-          <p>Next.js 15 | TypeScript | Tailwind CSS v4 | Shadcn/UI | Vercel-ready</p>
+          <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
+
+          <p>Built with Next.js • TypeScript • Tailwind CSS • shadcn/ui</p>
         </div>
       </footer>
     </div>
