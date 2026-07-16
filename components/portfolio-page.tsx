@@ -185,7 +185,7 @@ export function PortfolioPage() {
             <div>
               <Badge>Featured work</Badge>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-                Projects I've Built.
+                Projects I&apos;ve Built.
               </h2>
               <p className="mt-3 max-w-2xl leading-7 text-slate-400">
                 Each project highlights the technologies I used, the features I developed, the challenges I solved, and includes links to the live demo and source code.
@@ -294,10 +294,10 @@ export function PortfolioPage() {
             <div>
               <Badge>Contact</Badge>
               <h2 className="mt-4 text-3xl font-semibold tracking-tight text-white">
-                Let's connect and discuss how I can contribute to your team.
+                Let&apos;s connect and discuss how I can contribute to your team.
               </h2>
               <p className="mt-4 leading-7 text-slate-400">
-                I'm currently seeking internship and junior developer opportunities in frontend or full-stack development. If you think I'd be a good fit for your team, I'd be happy to connect and discuss how I can contribute.
+                I&apos;m currently seeking internship and junior developer opportunities in frontend or full-stack development. If you think I'd be a good fit for your team, I'd be happy to connect and discuss how I can contribute.
               </p>
             </div>
             <div className="grid gap-3">
